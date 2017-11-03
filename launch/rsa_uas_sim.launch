@@ -1,0 +1,10 @@
+<launch>
+    <include file="$(find rsa_uas)/launch/rsa_testworld.launch"/>
+    <include file="$(find ardrone_velocity_ekf)/launch/ardrone_velocity.launch"/>
+    
+    <node pkg="rsa_uas" type="driver_sim.py" name="driver" output="screen">
+    </node>
+
+    <node pkg="rsa_uas" type="tracker_sim.py" name="tracker" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+float32 orientation
+float32 camera_image_width
+float32 camera_image_height
+geometry_msgs/Point32 midpoint
+geometry_msgs/Point32 midpoint_circle_1
+geometry_msgs/Point32 topleft_circle_1
+geometry_msgs/Point32 botright_circle_1
+geometry_msgs/Point32 midpoint_circle_2
+geometry_msgs/Point32 topleft_circle_2
+geometry_msgs/Point32 botright_circle_2
+string detection_state
